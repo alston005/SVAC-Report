@@ -1,0 +1,816 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{BhikkiRam}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8bdd6aaf0fcbb91220d5e39b06f4aa68}{%
+           family={{Bhikki Ram v. New Delhi Municipal Council}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delhi High Court}%
+      }
+      \strng{namehash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \strng{fullhash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \strng{bibnamehash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \strng{authorbibnamehash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \strng{authornamehash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \strng{authorfullhash}{8bdd6aaf0fcbb91220d5e39b06f4aa68}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+    \endentry
+    \entry{bromleypaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c5d56409464b2f456b1af480c49c6262}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{fullhash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{bibnamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authorbibnamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authornamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authorfullhash}{c5d56409464b2f456b1af480c49c6262}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Sociology and Social Policy}
+      \field{title}{Street Vending and Public Policy: A Global Review}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://bit.ly/2GkvhdK
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2GkvhdK
+      \endverb
+    \endentry
+    \entry{ccspaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc23b601cafd8836839e3b003fe761fb}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d386ae1d9eedfdbbb020fc13fbab0caa}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Rajul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{fullhash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{bibnamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authorbibnamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authornamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authorfullhash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Centre for Civil Society}
+      \field{title}{Property Rights of Street Vendors}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2UHd3r0
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2UHd3r0
+      \endverb
+    \endentry
+    \entry{RPKHU}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=daa2ec3d8be7ad9cc35da4c77e85a988}{%
+           family={{Delhi Pradesh Rehri Patri Khomcha Hawkers Union and Ors v. South Delhi Municipal Corporation and Ors}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delhi High Court}%
+      }
+      \strng{namehash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \strng{fullhash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \strng{bibnamehash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \strng{authorbibnamehash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \strng{authornamehash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \strng{authorfullhash}{daa2ec3d8be7ad9cc35da4c77e85a988}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{MANU/DE/2311/2018}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/32156275/
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/32156275/
+      \endverb
+    \endentry
+    \entry{DwarkaS6}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c758c12c5a76115b1a951f2e962eeed3}{%
+           family={{Dwarka Sector-6 Vendors Association v. MCD and Ors}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delhi High Court}%
+      }
+      \strng{namehash}{c758c12c5a76115b1a951f2e962eeed3}
+      \strng{fullhash}{c758c12c5a76115b1a951f2e962eeed3}
+      \strng{bibnamehash}{c758c12c5a76115b1a951f2e962eeed3}
+      \strng{authorbibnamehash}{c758c12c5a76115b1a951f2e962eeed3}
+      \strng{authornamehash}{c758c12c5a76115b1a951f2e962eeed3}
+      \strng{authorfullhash}{c758c12c5a76115b1a951f2e962eeed3}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{MANU/DE/1666/2017}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/35860021/
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/35860021/
+      \endverb
+    \endentry
+    \entry{delhireport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fff88d35757d5a40a3d7fa8ad5f1b27a}{%
+           family={{GONCT}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Government of National Capital Territory}%
+      }
+      \strng{namehash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \strng{fullhash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \strng{bibnamehash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \strng{authorbibnamehash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \strng{authornamehash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \strng{authorfullhash}{fff88d35757d5a40a3d7fa8ad5f1b27a}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Delhi Human Development Report}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2S6QCOU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2S6QCOU
+      \endverb
+    \endentry
+    \entry{GopalS}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=06f235c18c0317c5678739d9ca2c5d5a}{%
+           family={{Gopal Sardar v. State of West Bengal}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Calcutta High Court}%
+      }
+      \strng{namehash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \strng{fullhash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \strng{bibnamehash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \strng{authorbibnamehash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \strng{authornamehash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \strng{authorfullhash}{06f235c18c0317c5678739d9ca2c5d5a}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{2017 SCC ONLINE CAL 14025}
+      \field{year}{2017a}
+    \endentry
+    \entry{HariRam}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e7948a6ad20dbf2612a5242fc93435d1}{%
+           family={{Hari Ram v. State of Himachal Pradesh}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Himachal Pradesh High Court}%
+      }
+      \strng{namehash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \strng{fullhash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \strng{bibnamehash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \strng{authorbibnamehash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \strng{authornamehash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \strng{authorfullhash}{e7948a6ad20dbf2612a5242fc93435d1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{2018 SCC ONLINE HP 496}
+      \field{year}{2018}
+    \endentry
+    \entry{hayekpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=60c0d366fef77217ae7c9a7e3dab2c20}{%
+           family={Hayek},
+           familyi={H\bibinitperiod},
+           given={Friedrich\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{fullhash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{bibnamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authorbibnamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authornamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authorfullhash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Economic Review}
+      \field{title}{The Use of Knowledge in Society}
+      \field{year}{1945}
+      \verb{urlraw}
+      \verb https://bit.ly/2TqX3bU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2TqX3bU
+      \endverb
+    \endentry
+    \entry{iloreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6723fa2369563301a71ba27e0b472aff}{%
+           family={{International Labour Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Labour Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{fullhash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{bibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorbibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authornamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorfullhash}{6723fa2369563301a71ba27e0b472aff}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Women and Men in the Informal Economy: A Statistical Picture}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2P5g4y4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2P5g4y4
+      \endverb
+    \endentry
+    \entry{jhapaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0880ffbaf3edcf0e0f5bf4f4354576d}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Ramnath},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{fullhash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{bibnamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authorbibnamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authornamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authorfullhash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Observer Research Foundation}
+      \field{title}{Strengthening Urban India's Informal Economy: The Case of Street Vending}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2WGeYhi
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2WGeYhi
+      \endverb
+    \endentry
+    \entry{kpmgreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6d0aa49c92033841df105790bbfa3829}{%
+           family={{KPMG India}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {KPMG India}%
+      }
+      \strng{namehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{fullhash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{bibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorbibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authornamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorfullhash}{6d0aa49c92033841df105790bbfa3829}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urbanisation in the National Capital Region- Overcoming Challenges to improve live-ability}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+    \endentry
+    \entry{MEHU}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=806b9b0df578f2b06bd8334d50d89dca}{%
+           family={{Maharashtra Ekta Hawkers Union v. The State Of Maharashtra And Anr}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bombay High Court}%
+      }
+      \strng{namehash}{806b9b0df578f2b06bd8334d50d89dca}
+      \strng{fullhash}{806b9b0df578f2b06bd8334d50d89dca}
+      \strng{bibnamehash}{806b9b0df578f2b06bd8334d50d89dca}
+      \strng{authorbibnamehash}{806b9b0df578f2b06bd8334d50d89dca}
+      \strng{authornamehash}{806b9b0df578f2b06bd8334d50d89dca}
+      \strng{authorfullhash}{806b9b0df578f2b06bd8334d50d89dca}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{2017 SCC ONLINE BOM 571}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/133490643/
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/133490643/
+      \endverb
+    \endentry
+    \entry{naikpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5a1c4cde1246f56c5776298b059aecf4}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={Abhayraj},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{fullhash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{bibnamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authorbibnamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authornamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authorfullhash}{5a1c4cde1246f56c5776298b059aecf4}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Socio-Legal Review}
+      \field{title}{‘Wizards at Making a Virtue of Necessity’: Street Vendors in India}
+      \field{volume}{11}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2WFrvkZ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2WFrvkZ
+      \endverb
+    \endentry
+    \entry{ncrpbreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=40cc8c9d2d2ed58f3fb723bb9da236ae}{%
+           family={{NCRPB}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Capital Region Planning Board, Ministry of Urban Development, Govt. of India}%
+      }
+      \list{location}{1}{%
+        {New Delhi, India}%
+      }
+      \strng{namehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{fullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{bibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorbibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authornamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorfullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Draft Revised Regional Plan 2021 National Capital Region}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2RCWnPz
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RCWnPz
+      \endverb
+    \endentry
+    \entry{ratanpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a3b9440c134ae417721d236ac0cc908}{%
+           family={Rattan},
+           familyi={R\bibinitperiod},
+           given={Pariroo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{fullhash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{bibnamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authorbibnamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authornamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authorfullhash}{6a3b9440c134ae417721d236ac0cc908}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Centre for Civil Society}
+      \field{title}{Street Vendors Act 2014: A Forgotten Promise?}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2REP21A
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2REP21A
+      \endverb
+    \endentry
+    \entry{sallypaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0f1f3c04e55667cd012b6c5d19d64aa}{%
+           family={Roever},
+           familyi={R\bibinitperiod},
+           given={Sally},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{fullhash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{bibnamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authorbibnamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authornamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authorfullhash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cityscape}
+      \field{title}{Informal Trade Meets Informal Governance: Street Vendors and Legal Reform in India, South Africa, and Peru}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2RDBVh6
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RDBVh6
+      \endverb
+    \endentry
+    \entry{sewapaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7f2b707627660793a5682adf12cce2f}{%
+           family={SEWA},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7f2b707627660793a5682adf12cce2f}
+      \strng{fullhash}{d7f2b707627660793a5682adf12cce2f}
+      \strng{bibnamehash}{d7f2b707627660793a5682adf12cce2f}
+      \strng{authorbibnamehash}{d7f2b707627660793a5682adf12cce2f}
+      \strng{authornamehash}{d7f2b707627660793a5682adf12cce2f}
+      \strng{authorfullhash}{d7f2b707627660793a5682adf12cce2f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SEWA Delhi Street vendors}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2TxgSyz
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2TxgSyz
+      \endverb
+    \endentry
+    \entry{TRamalingam}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9cfaecbdedaae69d67f818589896ae09}{%
+           family={{T. Ramalingam and Ors v. The Secretary to the Government and Ors}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Madras High Court}%
+      }
+      \strng{namehash}{9cfaecbdedaae69d67f818589896ae09}
+      \strng{fullhash}{9cfaecbdedaae69d67f818589896ae09}
+      \strng{bibnamehash}{9cfaecbdedaae69d67f818589896ae09}
+      \strng{authorbibnamehash}{9cfaecbdedaae69d67f818589896ae09}
+      \strng{authornamehash}{9cfaecbdedaae69d67f818589896ae09}
+      \strng{authorfullhash}{9cfaecbdedaae69d67f818589896ae09}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{MANU/TN/0706/2018}
+      \field{year}{2018}
+    \endentry
+    \entry{Thankappan}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae98b394cf69b85683e44ad457ad8d4b}{%
+           family={{Thankappan v. The District Collector}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kerala High Court}%
+      }
+      \strng{namehash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \strng{fullhash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \strng{bibnamehash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \strng{authorbibnamehash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \strng{authornamehash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \strng{authorfullhash}{ae98b394cf69b85683e44ad457ad8d4b}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/171611527/?type=print
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/171611527/?type=print
+      \endverb
+    \endentry
+    \entry{tirkeynews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e9945a785323171ce6a4a627ecaa9213}{%
+           family={Tirkey},
+           familyi={T\bibinitperiod},
+           given={Varsha\bibnamedelima Rani},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9945a785323171ce6a4a627ecaa9213}
+      \strng{fullhash}{e9945a785323171ce6a4a627ecaa9213}
+      \strng{bibnamehash}{e9945a785323171ce6a4a627ecaa9213}
+      \strng{authorbibnamehash}{e9945a785323171ce6a4a627ecaa9213}
+      \strng{authornamehash}{e9945a785323171ce6a4a627ecaa9213}
+      \strng{authorfullhash}{e9945a785323171ce6a4a627ecaa9213}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ActionAid}
+      \field{title}{‘We have the right to live with dignity like anyone else’}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2Bi0QS4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2Bi0QS4
+      \endverb
+    \endentry
+    \entry{VakatarSG}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e15c289271b20194da21bcd673d1392b}{%
+           family={{Vakatar Samatbhai Ghusabhai v. State Of Gujarat}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Gujarat High Court}%
+      }
+      \strng{namehash}{e15c289271b20194da21bcd673d1392b}
+      \strng{fullhash}{e15c289271b20194da21bcd673d1392b}
+      \strng{bibnamehash}{e15c289271b20194da21bcd673d1392b}
+      \strng{authorbibnamehash}{e15c289271b20194da21bcd673d1392b}
+      \strng{authornamehash}{e15c289271b20194da21bcd673d1392b}
+      \strng{authorfullhash}{e15c289271b20194da21bcd673d1392b}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{MANU/GJ/0716/2018}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/77422910/
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/77422910/
+      \endverb
+    \endentry
+    \entry{vermanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=585e2df0e223aa57821bc62ce5123735}{%
+           family={Verma},
+           familyi={V\bibinitperiod},
+           given={Shrutika},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{fullhash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{bibnamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authorbibnamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authornamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authorfullhash}{585e2df0e223aa57821bc62ce5123735}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LiveMint}
+      \field{title}{Start me up, Gurgaon}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2LdaOdJ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2LdaOdJ
+      \endverb
+    \endentry
+    \entry{VKSahu}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7f5e9949800e2d6995601fafcd902e6b}{%
+           family={{Vijay Kumar Sahu and Ors v. Govt. of NCT and Ors}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delhi High Court}%
+      }
+      \strng{namehash}{7f5e9949800e2d6995601fafcd902e6b}
+      \strng{fullhash}{7f5e9949800e2d6995601fafcd902e6b}
+      \strng{bibnamehash}{7f5e9949800e2d6995601fafcd902e6b}
+      \strng{authorbibnamehash}{7f5e9949800e2d6995601fafcd902e6b}
+      \strng{authornamehash}{7f5e9949800e2d6995601fafcd902e6b}
+      \strng{authorfullhash}{7f5e9949800e2d6995601fafcd902e6b}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{MANU/DE/2090/2018}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.casemine.com/judgement/in/5b10255b9eff4319d9551f2e
+      \endverb
+      \verb{url}
+      \verb https://www.casemine.com/judgement/in/5b10255b9eff4319d9551f2e
+      \endverb
+    \endentry
+    \entry{VKMMP}{jurisdiction}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=94ff82799ed47c3bf3b4bcc94e2cf0e8}{%
+           family={{Vyapari Kalyan Mandal Main Pushpa v. South Delhi Municipal Corporation}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delhi High Court}%
+      }
+      \strng{namehash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \strng{fullhash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \strng{bibnamehash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \strng{authorbibnamehash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \strng{authornamehash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \strng{authorfullhash}{94ff82799ed47c3bf3b4bcc94e2cf0e8}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{number}{2017 SCC ONLINE DEL 8962}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://indiankanoon.org/doc/70463837/
+      \endverb
+      \verb{url}
+      \verb https://indiankanoon.org/doc/70463837/
+      \endverb
+    \endentry
+    \entry{wiego}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1effb08c4ce8ac3baba25e1e329f4fa6}{%
+           family={WIEGO},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \strng{fullhash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \strng{bibnamehash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \strng{authorbibnamehash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \strng{authornamehash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \strng{authorfullhash}{1effb08c4ce8ac3baba25e1e329f4fa6}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WIEGO Law and Informality Resources}
+      \field{title}{Street Vendors’ Laws and Legal Issues in India}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://www.wiego.org/sites/default/files/resources/files/Street\%20Vendors\%E2\%80\%99\%20Laws\%20and\%20Legal\%20Issues\%20in\%20India.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.wiego.org/sites/default/files/resources/files/Street%5C%20Vendors%5C%E2%5C%80%5C%99%5C%20Laws%5C%20and%5C%20Legal%5C%20Issues%5C%20in%5C%20India.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
