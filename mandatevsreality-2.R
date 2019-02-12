@@ -66,9 +66,6 @@ p <- ggplot(data.new[order(data.new$share_number, decreasing = F), ],
         annotation_custom(grob=myCurve) + 
         annotation_custom(grob) + 
         scale_fill_manual(values=c("#3f75a6", "#498bc4", "#5c9bd4", "#99bce5", "#b8ceeb", "#d7e5f8","#f0f6ff"))
-
-        
-
 print(p)
 dev.off()
 #?scale_x_discrete()
