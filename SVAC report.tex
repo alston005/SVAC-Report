@@ -20,6 +20,7 @@
 \usepackage{float}
 \usepackage{pdflscape} %converts page from to portrait to landscape mode
 \usepackage{wrapfig}
+\usepackage{tikz}
 
 
 %Header and Footers
@@ -45,8 +46,8 @@
 \captionsetup[table]{singlelinecheck = false}
 \usepackage{rotating}
 \usepackage{longtable}
-\usepackage[table]{xcolor}
 \usepackage{makecell}
+\usepackage[table]{xcolor}
 \renewcommand\theadfont{\scriptsize}
 \usepackage{array}
 \usepackage{cellspace}
@@ -961,6 +962,16 @@ Instead of being elected, as mandated by the Act and the Haryana Street Vendor R
 \includegraphics[height=0.6\textwidth]{mandatevsreality.pdf}
 \end{figure}
 
+\begin{figure}[
+		%Do not try to scale figure in .tex or you loose font size consistency
+	    	\centering
+		%The code to input the plot is extremely simple
+		\input{plot_test.tex}
+		%Captions and Labels can be used since this is a figure environment
+		\caption{Sample output from tikzDevice}
+		\label{plot:test}
+	\end{figure}
+
 
 \subsubsection*{Low Vendor Representation at TVC Meetings Resulting in Biased Decisions}
 \addcontentsline{toc}{subsubsection}{Low Vendor Representation at TVC Meetings Resulting in Biased Decisions}
@@ -1414,6 +1425,7 @@ $V_{11}$ & Proportion of TVCs that have \textbf{assigned office space} & 4 & $4 
 
 
 \newpage
+\hspace{3em}
 \subsection*{As per TVC Meeting of August 2018}
 %\addcontentsline{toc}{section}{List of TVC members as per TVC Meeting of August 2018}
 \begin{figure}[H]
@@ -1432,6 +1444,7 @@ $V_{11}$ & Proportion of TVCs that have \textbf{assigned office space} & 4 & $4 
 \includegraphics[height=20cm]{"54".jpg}
 \end{figure}
 \newpage
+\vspace{5pt}
 \begin{figure}[H]
 \centering
 \includegraphics[height=20cm]{"55".jpg}
