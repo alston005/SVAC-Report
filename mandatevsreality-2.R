@@ -34,21 +34,24 @@ myCurve<-curveGrob(0.75, 0.93, 0.95, 0.75, default.units = "npc",
                    open = TRUE,
                    debug = FALSE,
                    name = NULL, gp = gpar(), vp = NULL)
-p <- NULL
-tikz(file = "plot_test.tex", width = 15, height = 5)
-p <- ggplot(data.new[order(data.new$share_number, decreasing = F), ], 
-            aes(x = source, y = share_number, fill = desc, label = share_number)) +
-        labs(title = "Percentage of Members in TVCs") + 
-        scale_x_discrete(position = "top", labels = c("Mandate of\nGovernment Order", 
+x <- NULL
+tikz(file = "m_vs_r.tex", width = 6.5, height = 7)
+#?tikz
+x <- ggplot(data.new[order(data.new$share_number, decreasing = F), ], 
+            aes(x = factor(source), y = share_number, 
+                fill = desc, label = share_number)) +
+        labs(title = "Percentage of Members in TVCs") +
+        scale_x_discrete(position = "top", labels = c("Mandate of\nMCG Order", 
                                                       "Reality from\nMeeting Minutes")) + 
-        geom_bar(stat = "identity", width = 0.3) +  
+        geom_bar(stat = "identity", width = 0.35)  + 
         geom_text(size = 3, position = position_stack(vjust = 0.5)) +
-        theme(axis.text = element_text(size = 12)) + 
+        theme(axis.text = element_text(size = 10)) + 
         coord_flip() + scale_y_reverse() + 
-        theme(legend.position=c(0.52,0),
+        theme(aspect.ratio = 1/2,
+              legend.position=c(0.52,0),
               legend.title = element_blank(),
-              legend.key.width = unit(0.75,"cm"),
-              legend.key.height = unit(1.0,"cm"),
+              legend.key = element_rect(size = 5),
+              legend.key.size = unit(1.5, 'pt'),
               plot.title = element_text(hjust = 0.5),
               panel.grid.major = element_blank(),
               panel.grid.minor = element_blank(),
@@ -58,18 +61,15 @@ p <- ggplot(data.new[order(data.new$share_number, decreasing = F), ],
               axis.line.y = element_blank(),
               axis.ticks = element_blank(), 
               axis.text.x = element_blank(),
-              axis.text.y = element_text(size = 10),
+              axis.text.y = element_text(size = 10, margin = margin(l = 0 , r =0)),
               axis.title = element_blank(),
-              legend.text = element_text(size = 10),
-              legend.margin = margin(r=10, unit = "pt")) + guides(fill = guide_legend(nrow = 1)) + 
-        theme(aspect.ratio = 1/2) +
+              legend.text = element_text(margin = margin(l = 1 , r =10), size = 10),
+              legend.margin = margin(r=10, unit = "pt")) + 
+        guides(fill = guide_legend(nrow = 1, keywidth = 1)) + 
         annotation_custom(grob=myCurve) + 
         annotation_custom(grob) + 
         scale_fill_manual(values=c("#3f75a6", "#498bc4", "#5c9bd4", "#99bce5", "#b8ceeb", "#d7e5f8","#f0f6ff"))
-print(p)
+print(x)
 dev.off()
-#?scale_x_discrete()
+x
 
-#print(p)
-#?annotation_custom
-#?title
