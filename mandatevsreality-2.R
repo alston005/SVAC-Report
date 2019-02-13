@@ -25,7 +25,7 @@ data.new
 
 
 grob <- grobTree(textGrob("Representation from street vendors\nand vendor associations",
-                          x=0.52,  y=0.85, hjust=0, vjust = 0.3,
+                          x=0.45,  y=0.85, hjust=0, vjust = 0.3,
                           gp=gpar(col="black", fontsize=10, fontface="italic")))
 myCurve<-curveGrob(0.75, 0.93, 0.95, 0.75, default.units = "npc",
                    curvature = -0.5, angle = 90, ncp = 20, shape = 1,
