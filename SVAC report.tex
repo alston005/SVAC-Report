@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt, twoside]{article}
+\documentclass[a4paper, 12pt, twoside, table]{article}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 
@@ -47,7 +47,7 @@
 \usepackage{rotating}
 \usepackage{longtable}
 \usepackage{makecell}
-\usepackage[table]{xcolor}
+\usepackage{xcolor}
 \renewcommand\theadfont{\scriptsize}
 \usepackage{array}
 \usepackage{cellspace}
@@ -55,7 +55,8 @@
 \setlength\cellspacebottomlimit{3pt}
 
 %Coloured Boxes
-\usepackage{xcolor}
+%\usepackage{colortbl}
+%\usepackage{xcolor}
 \usepackage{mdframed}
 
 
@@ -82,6 +83,8 @@
 \definecolor{SVACred1}{RGB}{224, 102, 102}
 \definecolor{SVACred2}{RGB}{234, 153, 153}
 \definecolor{SVACred3}{RGB}{221, 126, 107}
+\definecolor{grey}{RGB}{128, 128, 128}
+\definecolor{white}{RGB}{255, 255, 255}
 
 
 %Heading Colours
@@ -138,7 +141,7 @@ The analysis would not have been possible without the cooperation from the surve
 
 We thank the Atlas Network for funding this year’s edition of the Progress Report on Implementing the Street Vendors Act 2014.
 
-We are grateful to Prashant Narang for leading the legal analysis. We thank Priya Kuriyan for the illustration on the cover page, Usha Sondhi Kundu for designing the cover page and C.I. Infosolutions for proofreading the study. 
+We thank Bhakti Patil for raising funds and for being the interlocutor between the research team and the donor. We are grateful to Prashant Narang for leading the legal analysis. We thank Priya Kuriyan for the illustration on the cover page, Usha Sondhi Kundu for designing the cover page and C.I. Infosolutions for proofreading the study. 
 
 Special thanks are due to Dr Parth J Shah, President, CCS, for conceptualising the report and guiding us throughout the project. 
 
@@ -204,7 +207,7 @@ This year, we analysed judgments passed between January 2017 and September 2018 
 
 In 2017, we developed a cross-state index and tracked the progress of individual states in implementing the Act. This year, we reassessed the status of implementation. We measured absolute and relative compliance with the Act by studying the data provided by the Ministry of Housing and Urban Affairs (MoHUA) and state governments. Five years since the enactment of the law, we found that state-level progress remains sluggish and implementation disregards several provisions of the Act. The Act states that each Urban Local Body (ULB) should have at least one TVC. Currently, there are only 2,382 TVCs for 7,263 ULBs in India. Moreover, 42\% of these TVCs do not have vendor representatives, defeating the purpose of a ‘participatory committee’. Only 4 out of 28 states and 2 Union Territories (UT) that responded to requests for data have a grievance redressal committee.
 
-To measure the relative progress in implementing the Act, we gave each state a score based on the depth of implementation. The index captured the performance of states against the 11 steps outlined in the Act. Mizoram, Chandigarh and Rajasthan were the top three states. Two of these states previously had a State Act on vending based on the model bill provided by the central government. Though the State Acts were repealed, all orders and actions taken under them were deemed to be issued under the provisions of the Central Act and continue to be legally tenable. West Bengal and Nagaland were the worst performing states. West Bengal has 3 TVCs for 239 towns and Nagaland has 2 TVCs for 11 towns. Both states have implemented only 2 out of 11 steps. %BA says you may want to add a summary data point for Mizoram, Chandigarh and Rajasthan like for the worst states. 
+To measure the relative progress in implementing the Act, we gave each state a score based on the depth of implementation. The index captured the performance of states against the 11 steps outlined in the Act. Tamil Nadu, Mizoram, Chandigarh and Rajasthan were the top four states. Two of these states previously had a State Act on vending based on the model bill provided by the central government. Though the State Acts were repealed, all orders and actions taken under them were deemed to be issued under the provisions of the Central Act and continue to be legally tenable. West Bengal and Nagaland were the worst performing states. West Bengal has 3 TVCs for 239 towns and Nagaland has 2 TVCs for 11 towns. Both states have implemented only 2 out of 11 steps. %BA says you may want to add a summary data point for Mizoram, Chandigarh and Rajasthan like for the worst states. 
 
 Recognising the limitations inherent in self-reported data, we also studied the implementation of the Act in two cities. In Gurugram and Delhi, we assessed the disjunction between the reported and actual constitution and functioning of Town Vending Committees, an essential element of the Act. 
 
@@ -220,7 +223,7 @@ Overall, we found that despite the establishment of a comprehensive legal framew
 \addcontentsline{toc}{section}{Street Vendors in India: An Overview}
 Street vending or hawking constitutes a critical component of the informal economy in India, catering largely to the urban demand for affordable goods and services. An estimated 1 crore people \parencite{jhapaper} rely on street vending for their livelihoods. The ease of entry and exit, lower levels of start-up capital and flexible working hours make street vending an ideal choice for self-employment and additional income. 
 
-Despite their contribution to the urban economy, vendors are often considered `anti-social, anti-developmental, dirty, unaesthetic and unhygienic' \parencite{wiego}. They are frequently targeted, harassed and evicted by government officials. In most cases of eviction, they reappear in connivance with municipal and police authorities. Even the Supreme Court has taken note of how vendors are a `harassed lot and are constantly victimized by the officials of the local authorities, the police, etc'. \parencite{MEHU}.
+Despite their contribution to the urban economy, vendors are often considered `anti-social, anti-developmental, dirty, unaesthetic and unhygienic' \parencite{wiego}. They are frequently targeted, harassed and evicted by government officials. In most cases of eviction, they reappear in connivance with municipal and police authorities. Even the Supreme Court has taken note of how vendors are a `harassed lot and are constantly victimized by the officials of the local authorities, the police, etc' \parencite{MEHU}.
 
 Roever (\cite*{sallypaper}) argues that economies with ambiguous laws and absence of constraints on state power encourage the low-level harassment of vendors through unofficial payment of \textit{hafta}, merchandise confiscations and periodic evictions. The lack of clarity on the rights and obligations of street vendors encourages local authorities to benefit from flourishing channels of rent seeking. 
 
@@ -249,7 +252,7 @@ The Act establishes the right to vend post-certification and payment of vending 
 
 The Act relegates powers to enumerate, identify and allocate vendors to zones to a TVC, allowing for decentralised governance. It redistributes powers exclusively held by municipal bodies and the police between street vendors, market associations and local residential association. To protect vendors’ rights, the Act requires at least 40\% of the TVC members to be vendors. An additional 10\% of the members must be from non-government and community-based organisations. This way the Act creates mechanisms for participatory decision making, reducing the scope for exclusionary practices such as harassment or relocation to noncommercial locations.
 
-\paragraph*{Certify All Without Caps on the Number of Licences:} A TVC is required to conduct periodic enumeration (once every five years) of local street vendors. There is no artificial limit of the number of street vendors, creating a permitting framework instead of a licensing regime. The TVC is required to accommodate all identified vendors in the vending zones, subject to the holding capacity.\footnote{The Act defines holding capacity as `the maximum number of street vendors who can vend in any vending zone and has been determined as such by the local authority on the commendations of the Town Vending Committee'. The principles for determining holding capacity of vending zones are to be provided in the scheme for Street Vendors framed by the appropriate Government.} If the number of vendors identified exceeds the holding capacity, they are to be accommodated in an adjoining location to `avoid relocation'. The Act categorically rules out any attempt to evict or relocate vendors and declare no-vending zones, prior to the completion of the survey.
+\paragraph*{Certify All Without Caps on the Number of Licences:} A TVC is required to conduct periodic enumeration (once every five years) of local street vendors. There is no artificial limit of the number of street vendors, creating a permitting framework instead of a licensing regime. The TVC is required to accommodate all identified vendors in the vending zones, subject to the holding capacity.\footnote{ The Act defines holding capacity as `the maximum number of street vendors who can vend in any vending zone and has been determined as such by the local authority on the commendations of the Town Vending Committee'. The principles for determining holding capacity of vending zones are to be provided in the scheme for Street Vendors framed by the appropriate Government.} If the number of vendors identified exceeds the holding capacity, they are to be accommodated in an adjoining location to `avoid relocation'. The Act categorically rules out any attempt to evict or relocate vendors and declare no-vending zones, prior to the completion of the survey.
 
 \paragraph{Ensure Grievances are Heard by an Independent Committee:} The Act mandates the state government to establish one or more independent committees, chaired by ex-judicial officers, for redressal of disputes and complaints filed by the street vendors. The Act categorically excludes any `employee of the appropriate government or the local authority' from the committee to ensure impartial decisions. In doing so, the Act recognises the need to place checks on administrative decisions and curb harassment by municipal authorities.
 
@@ -257,7 +260,7 @@ The Act relegates powers to enumerate, identify and allocate vendors to zones to
 
 In 2017, we developed an index to rank states on their progress in and fidelity to the implementation of the Act. We lodged applications under the Right to Information (RTI) Act 2005 across 30 states and UTs in India, compiled court judgements and analysed secondary sources including news stories. After collating data, we used a weighted scoring method to assess state-wise performance.
 
-In 2018, to check progress, we systematically studied three aspects of the implementation of the Act: first, using data provided by the MoHUA and individual state governments on the status of implementation, we compiled a cross-state index measuring actual and relative progresses in implementing the Act; next, using comprehensive case law analysis of 57 court decisions,\footnote{We reviewed all judicial decisions from January 2017 to September 2018.} we studied the interpretation and precedence set by higher courts on essential elements of the Act; and finally, we evaluated the de jure and de facto functioning of TVCs in two large commercial cities—Delhi and Gurugram using semi-structured interviews with committee members. 
+In 2018, to check progress, we systematically studied three aspects of the implementation of the Act: first, using data provided by the MoHUA and individual state governments on the status of implementation, we compiled a cross-state index measuring actual and relative progresses in implementing the Act; next, using comprehensive case law analysis of 57 court decisions,\footnote{ We reviewed all judicial decisions from January 2017 to September 2018.} we studied the interpretation and precedence set by higher courts on essential elements of the Act; and finally, we evaluated the de jure and de facto functioning of TVCs in two large commercial cities—Delhi and Gurugram using semi-structured interviews with committee members. 
 
 The report evaluates the extent of application of the new legal and governance framework to spatial conflicts and its impact on vendors. We argue that the ineffective role played by the judiciary and lackadaisical implementation by the states, makes the Act fall short of fulfilling its intended objective, that is protecting the rights of urban street vendors. 
 
@@ -265,7 +268,7 @@ The report evaluates the extent of application of the new legal and governance f
 \section*{How Has the Judiciary Interpreted the Act?}
 \addcontentsline{toc}{section}{How Has the Judiciary Interpreted the Act?}
 
-The Supreme Court of India and various high courts passed 64 judgements and orders between January 2017 and September 2018 on disputes relating to the Street Vendors Act 2014. This section analyses 57 such cases to highlight the varying interpretations and discern whether these interpretations fulfil the intended legislative objectives.\footnote{Two legal repositories—Manupatra and SCC Online—were used to extract 64 unique results. Out of these 64 judgements, 57 cases were shortlisted and analysed. The rest either did not pertain to the Act or were dismissal/withdrawal orders without any discussion on merits of the case.} The section also sheds light on the most contested issues on the implementation of the Act. 
+The Supreme Court of India and various high courts passed 64 judgements and orders between January 2017 and September 2018 on disputes relating to the Street Vendors Act 2014. This section analyses 57 such cases to highlight the varying interpretations and discern whether these interpretations fulfil the intended legislative objectives.\footnote{ Two legal repositories—Manupatra and SCC Online—were used to extract 64 unique results. Out of these 64 judgements, 57 cases were shortlisted and analysed. The rest either did not pertain to the Act or were dismissal/withdrawal orders without any discussion on merits of the case.} The section also sheds light on the most contested issues on the implementation of the Act. 
 
 \subsection*{Summary of Issues Contested and Case Outcomes}
 \addcontentsline{toc}{subsection}{Summary of Issues Contested and Case Outcomes}
@@ -307,11 +310,11 @@ Two high courts—the High Court of Delhi and the High Court of Himachal Pradesh
 
 The High Court of Delhi in 11 cases based its decision on the pre-2014 status of the vendor.\footnote{ Bachchu Singh v South Delhi Municipal Corporation 2017; Mahesh Kumar Yadav v North Delhi Municipal Council 2017; Raju Saha v South Delhi Municipal Corporation 2018; Sunil Kumar v Govt of NCT Delhi 2017; Girendra Pandit v South Delhi Municipal Corporation 2017; Khurshida Parveen v South Delhi Municipal Corporation 2017; Bhikki Ram and Ors v New Delhi Municipal Corporation 2017; Mohan Lal v New Delhi Municipal Council 2018; Rakesh Babu Gupta and Ors v New Delhi Municipal Council 2017; Sheetal Prasad Gupta v New Delhi Municipal Council 2017.} On the question of whether the petitioner was a licensed vendor, the Court gave primacy to the status of the petitioner as presented in three official lists: the lists of vendors prepared by the Thareja Committee in 1992, the Chopra Committee in 1996 and the NDMC in 2007. 
 
-If the name of the petitioner was absent from any of these lists, the Court held that the petitioner was not a `regular' street vendor and, hence, not entitled to protection under Section 3(3). Even when presented with other proofs of vending identity and history, such as receipts and \textit{challans} for payments made to municipal authorities, the Court was unmoved.\footnote{These were receipts that were issued (as a part of an informal system) to the vendors in 1980s, by the municipal authorities on payment of a small sum. While the system was banned in 1998, these old receipts are still used by the vendors, to negotiate with the authorities and establish their legitimacy.}  In cases where vendors produced vending licences, the Court rejected them on the basis that the licences had expired and vendors had not taken steps to renew it. 
+If the name of the petitioner was absent from any of these lists, the Court held that the petitioner was not a `regular' street vendor and, hence, not entitled to protection under Section 3(3). Even when presented with other proofs of vending identity and history, such as receipts and \textit{challans} for payments made to municipal authorities, the Court was unmoved.\footnote{ These were receipts that were issued (as a part of an informal system) to the vendors in 1980s, by the municipal authorities on payment of a small sum. While the system was banned in 1998, these old receipts are still used by the vendors, to negotiate with the authorities and establish their legitimacy.}  In cases where vendors produced vending licences, the Court rejected them on the basis that the licences had expired and vendors had not taken steps to renew it. 
 
 In \citeauthor{BhikkiRam} (\href{https://indiankanoon.org/doc/112289789/}{2017}), given the `over-crowded area,' the NDMC allowed only those vendors to vend `whose names find mention in the list of 628 eligible persons prepared by the NDMC or are licensed vendors or hawkers'. The Court chose not to interfere in the policy decision of the NDMC as long as the municipal corporation acted in a `fair, just and uniform manner without any favour of any kind'.
 
-In three cases, where the petitioners had their names in the official lists, the Court allowed eviction but directed the municipal agencies to relocate them.\footnote{Mohan Lal v New Delhi Municipal Council 2018; Sheetal Prasad Gupta v New Delhi Municipal Council 2017; Virender v South Delhi Municipal Corporation 2017.} 
+In three cases, where the petitioners had their names in the official lists, the Court allowed eviction but directed the municipal agencies to relocate them.\footnote{ Mohan Lal v New Delhi Municipal Council 2018; Sheetal Prasad Gupta v New Delhi Municipal Council 2017; Virender v South Delhi Municipal Corporation 2017.} 
 
 In all these instances, the Court did not heed Section 3(3) of the Act, which states that `no street vendor shall be evicted or, as the case may be, relocated till the survey... has been completed and the certificate of vending is issued to all street vendors'. Such judicial interpretation only protects a small number of vendors who have their names in official but outdated lists. Rather than penalising the tardy implementation of the Act, the Court imposes a penalty on the vendors who struggle to earn their livelihood. 
 
@@ -328,7 +331,7 @@ The High Court of Kerala argues that the Act extends protection to all vendors i
 
 \subsubsection*{Evictions Based on Pre-2014 Demarcations of No-vending Zone}
 
-The Act prohibits municipal and local authorities from declaring no-vending zones until all vendors are listed and a TVC with vendor representation is established. Despite this, the High Court of Delhi allowed the municipal corporations to continue `regular eviction drives'. In seven cases, the Court upheld the pre-2014 demarcation by municipal bodies as an additional ground to justify eviction.\footnote{Bachchu Singh v South Delhi Municipal Corporation 2017; Arvind Gupta and Ors. v Govt. of NCT and Ors. 2017; Federation of Nehru Place Association v South Delhi Municipal Corporation and Ors. 2018; Footpath Dukandar Sangh and Ors. v State of Bihar and Ors 2017; Hari Ram v Ramesh Kumar 2017; Virender v South Delhi Municipal Corporation 2017; Vyapari Kalyan Mandal Main Pushpa v South Delhi Municipal Corporation 2017.}  Although the Court specified that such no-vending zones remain valid only until the TVCs start functioning, it allowed interim eviction. This interpretation contravenes Clause 3 of the First Schedule of the Act, which states that no-vending zone should not be declared before surveys are completed and plans formulated.
+The Act prohibits municipal and local authorities from declaring no-vending zones until all vendors are listed and a TVC with vendor representation is established. Despite this, the High Court of Delhi allowed the municipal corporations to continue `regular eviction drives'. In seven cases, the Court upheld the pre-2014 demarcation by municipal bodies as an additional ground to justify eviction.\footnote{ Bachchu Singh v South Delhi Municipal Corporation 2017; Arvind Gupta and Ors. v Govt. of NCT and Ors. 2017; Federation of Nehru Place Association v South Delhi Municipal Corporation and Ors. 2018; Footpath Dukandar Sangh and Ors. v State of Bihar and Ors 2017; Hari Ram v Ramesh Kumar 2017; Virender v South Delhi Municipal Corporation 2017; Vyapari Kalyan Mandal Main Pushpa v South Delhi Municipal Corporation 2017.}  Although the Court specified that such no-vending zones remain valid only until the TVCs start functioning, it allowed interim eviction. This interpretation contravenes Clause 3 of the First Schedule of the Act, which states that no-vending zone should not be declared before surveys are completed and plans formulated.
 
 The view of the Court was challenged in \cite{VKMMP}. The petitioner argued that before 2013, the Supreme Court in Sudhir Madan v. Municipal Corporation of Delhi (2009) and Maharashtra Ekta Hawkers Union v. Municipal Corporation case (2013) directed that any new legislation, when passed, will supersede existing schemes or Acts. 
 
@@ -348,16 +351,13 @@ Section 33 of the Act 2014 gives it an overriding effect over all other laws, wh
 
 \paragraph*{High Court of Kerala: Overriding Effect Only Applicable in Case of Inconsistency:}
 
-The High Court of Kerala, in four cases, held that local permission requirements are overridden by the specific circumstances and nature of highways and that in order to vend on land abutting highways, vendors need permissions from the National Highway Authority of India or under the Highway Protection Act of the state.\footnote{Saji Joy v The Executive Engineer, Public Works Department (PWD) NH Division and Ors, 2018; Sudheesh T.S v State of Kerala and Ors, 2018; V.Prabhakaran and Ors v National Highway Authority, Kozhikode and Ors, 2018; Abbas V. and Ors v State of Kerala and Ors, 2018.} While the petitioners argued that the Act has an overriding effect, the Court observed that the effect is only applicable if there is any inconsistency. The Court held that there is nothing inconsistent between Street Vendors Act 2014, and the Control of the National Highway (Land \& Traffic) Act 2002. 
+The High Court of Kerala, in four cases, held that local permission requirements are overridden by the specific circumstances and nature of highways and that in order to vend on land abutting highways, vendors need permissions from the National Highway Authority of India or under the Highway Protection Act of the state.\footnote{ Saji Joy v The Executive Engineer, Public Works Department (PWD) NH Division and Ors, 2018; Sudheesh T.S v State of Kerala and Ors, 2018; V.Prabhakaran and Ors v National Highway Authority, Kozhikode and Ors, 2018; Abbas V. and Ors v State of Kerala and Ors, 2018.} While the petitioners argued that the Act has an overriding effect, the Court observed that the effect is only applicable if there is any inconsistency. The Court held that there is nothing inconsistent between Street Vendors Act 2014, and the Control of the National Highway (Land \& Traffic) Act 2002. 
 
 The Act, under Section 1(4), expressly excludes some areas from its purview such as railway premises, land and trains, but makes no mention of highways. The judgement of the Court, in effect, exempts highways from the coverage of the Act. 
 
 \paragraph*{High Court of Madras: State Municipal Law Is Not Overwritten by the Act:}
 
 The High Court of Madras held that the state municipal law—Tamil Nadu District Municipalities Act 1920—is not overwritten by the Street Vendors Act 2014 \parencite{TRamalingam}. The Court allowed eviction as the Street Vendors Act 2014 is only “to protect the livelihood rights of the street vendors and to regulate their street vending activities.” It noted that the Street Vendors Act 2014 is “regulatory in character” and the Tamil Nadu District Municipalities Act 1920, especially sections 180(A) and 182 that deal with removal of encroachment, are “mandatory”. By laying emphasis on the “mandatory” clauses of the Tamil Nadu District Municipalities Act 1920, the Court gave it precedence over and above the Street Vendors Act, 2014.
-
-
-
 
 \paragraph*{High Court of Gujarat: No Protection to Vendors if State Laws are Violated:}
 
@@ -420,7 +420,7 @@ Step 11	&	Local authority to \textbf{assign office space} to the TVC\\
 
 These 11 questions were also sent to the DAY-NULM. NULM sets out the strategy and operational guidelines for implementing the Act under its Support to Urban Street Vendors (SUSV) component. NULM coordinated with the state representatives multiple times and shared updated data at different stages of the report. The data was verified and updated last in January 2019.
 
-	We received a response from 28 states and 2 UTs.\footnote{We have referred to 28 states and 2 UTs as 30 states throughout the text.} Andaman and Nicobar Island, Dadra and Nagar Haveli, Daman and Diu, Lakshadweep, and Delhi did not respond to the RTI/NULM request for data. The Act does not apply to Jammu and Kashmir. 
+	We received a response from 28 states and 2 UTs.\footnote{ We have referred to 28 states and 2 UTs as 30 states throughout the text.} Andaman and Nicobar Island, Dadra and Nagar Haveli, Daman and Diu, Lakshadweep, and Delhi did not respond to the RTI/NULM request for data. The Act does not apply to Jammu and Kashmir. 
 
 	In this section, we discuss our findings on the extent states have complied with the Act, four years from its onset.
 
@@ -435,7 +435,7 @@ These 11 questions were also sent to the DAY-NULM. NULM sets out the strategy an
 	\item Of the 2,382 TVCs formed, 58\% have complied with step 5, vendor representation in the TVCs.
 	\item Of the TVCs formed, 98\% have completed step 6, vendor enumeration.
 	\item Of the TVCs formed, 50\% have issued identity cards to 75\% of the identified vendors.
-	\item Of the TVCs formed, 20\% have complied with step 8 and have a street vending plan based on which vending zones are to be earmarked (step 9). 
+	\item Of the TVCs formed, 20\% have complied with step 8 and have a street vending plan based on which vending zones are to be earmarked. 
 	\item Of the TVCs formed, 31\% have complied with step 10 and published a street vendor charter.
 \end{itemize}
 
@@ -445,7 +445,7 @@ These 11 questions were also sent to the DAY-NULM. NULM sets out the strategy an
 
 	Four states—Arunachal Pradesh, Karnataka, Telangana and Nagaland—are yet to notify rules.
 
-	Arunachal Pradesh repealed the Arunachal Pradesh Street Vendors Act 2011, in March 2018 and came under the purview of the Central Act with effect from May 2018.\footnote{The Arunachal Pradesh Street Vendors (Protection of Livelihood and Regulation of Street Vending)(Repeal) Bill,2018} The repeal of the state Act and the adoption of Central Act partially explain the delay in notifying the rules. The state, however, already has TVCs in 45\% of its town. In the absence of the rules, the legal tenability of the committees is in question.
+	Arunachal Pradesh repealed the Arunachal Pradesh Street Vendors Act 2011, in March 2018 and came under the purview of the Central Act with effect from May 2018.\footnote{ The Arunachal Pradesh Street Vendors (Protection of Livelihood and Regulation of Street Vending)(Repeal) Bill,2018} The repeal of the state Act and the adoption of Central Act partially explain the delay in notifying the rules. The state, however, already has TVCs in 45\% of its town. In the absence of the rules, the legal tenability of the committees is in question.
 
 \subsection*{19 States Have Drafted and Notified the Scheme}
 \addcontentsline{toc}{subsection}{19 States Have Drafted and Notified the Scheme}
@@ -553,264 +553,262 @@ Rajasthan & 189 & 189 & 100\\
 	\endlastfoot
 	\multicolumn{2}{l}{States with Best Compliance (Index Score Equal to or Above 70)}\\
 	\midrule
+	
 \cellcolor{SVACgreen1}\bf{Tamil Nadu}
 \newline
 Score: 76
 \newline
-Steps: 8/11
-&
-\cellcolor{SVACgreen2}482 TVCs have enumerated vendors in 664 town, out of the total 721 towns in the state.  It is possible that one TVC is administering enumeration of the vendors in more than one town. 
- \\
- 
-%\cellcolor{SVACgreen1} & \cellcolor{SVACgreen2}
+Steps: 8/11 & \cellcolor{SVACgreen2}482 TVCs have enumerated vendors in 664 town, out of the total 721 towns in the state.  It is possible that one TVC is administering enumeration of the vendors in more than one town. \\
+
+\cellcolor{SVACgreen1} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen1}\bf{Mizoram}
 \newline
 \bf{Score: 75}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}All six towns have a TVC with vendor representatives. The TVCs, however, do not have an assigned office space and have not published the charter. There are no Grievance Redressal Committees.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}All six towns have a TVC with vendor representatives. The TVCs, however, do not have an assigned office space and have not published the charter. There are no Grievance Redressal Committees.\\
+
+\cellcolor{SVACgreen1} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen1}\bf{Chandigarh}
 \newline
 \bf{Score: 75}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}There is one TVC with elected vendor representatives. It has identified 9,353 vendors but has not issued identity cards or published the charter. There are no Grievance Redressal Committees.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}There is one TVC with elected vendor representatives. It has identified 9,353 vendors but has not issued identity cards or published the charter. There are no Grievance Redressal Committees. \\
+
+\cellcolor{SVACgreen1} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen1}\bf{Rajasthan}
 \newline
 \bf{Score: 70}
 \newline
-\bf{Steps: 10/11}
-&
-\cellcolor{SVACgreen2}Per the Act, the vending zones should be earmarked following the guidelines laid down in the vending plan. While 4\% of the towns have published the plan, 67\% of TVCs have already earmarked vending zones.
-\\
+\bf{Steps: 10/11} & \cellcolor{SVACgreen2}Per the Act, the vending zones should be earmarked following the guidelines laid down in the vending plan. While 4\% of the towns have published the plan, 67\% of TVCs have already earmarked vending zones. \\
+\cellcolor{SVACgreen1} & \cellcolor{SVACgreen2} \\
+
 \midrule
 \multicolumn{2}{l}{States with Good Compliance (Index score Between 50 to 69)}\\
 \midrule
+
 \cellcolor{SVACgreen3}\bf{Jharkhand}
 \newline
 \bf{Score: 69}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}While 48\% of the TVCs have a published vending plan, 77\% of the TVCs have earmarked vending zones.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}While 48\% of the TVCs have a published vending plan, 77\% of the TVCs have earmarked vending zones. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Himachal Pradesh}
 \newline
 \bf{Score: 68}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}93\% of the towns have formed a TVC. Per the rules notified in December 2016, the TVCs are provisional and will be replaced once survey and election of vendors are complete. Until then, the vendor representatives are nominated.
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}93\% of the towns have formed a TVC. Per the rules notified in December 2016, the TVCs are provisional and will be replaced once survey and election of vendors are complete. Until then, the vendor representatives are nominated.
 
-Although only 39 towns have TVCs, vendor enumeration is complete in 41 towns. It is possible that one TVC is administering enumeration in more than one town.
-\\
+Although only 39 towns have TVCs, vendor enumeration is complete in 41 towns. It is possible that one TVC is administering enumeration in more than one town. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Uttar Pradesh}
 \newline
 \bf{Score: 67}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}30 out of 130 towns have formed a TVC with vendor representation. The representation is not through election, but selection of applicants from vendor associations. The 30 TVCs have enumerated vendors and issued identity cards. 13 TVCs have earmarked vending zones even without a plan in place.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}30 out of 130 towns have formed a TVC with vendor representation. The representation is not through election, but selection of applicants from vendor associations. The 30 TVCs have enumerated vendors and issued identity cards. 13 TVCs have earmarked vending zones even without a plan in place. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Andhra Pradesh}
 \newline
 \bf{Score: 66}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}In Andhra Pradesh 1 town has published the plan but 40 TVCs have earmarked vending zones. It is not clear whether one plan is being used to earmark vending zones in all 40. If not, then how have TVCs earmarked no-vending, restricted vending and vending zones? What are the spatial planning norms used?
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}In Andhra Pradesh 1 town has published the plan but 40 TVCs have earmarked vending zones. It is not clear whether one plan is being used to earmark vending zones in all 40. If not, then how have TVCs earmarked no-vending, restricted vending and vending zones? What are the spatial planning norms used? \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Puducherry}
 \newline
 \bf{Score: 66}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}Puducherry has complied fully with all steps except three: notification of scheme, constitution of a Grievance Redressal Committee, and appointment of vendor representatives in the TVCs. Enumeration, registration and demarcation of vending zones without vendor representatives in the TVC defeat the purpose of a participatory committee.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}Puducherry has complied fully with all steps except three: notification of scheme, constitution of a Grievance Redressal Committee, and appointment of vendor representatives in the TVCs. Enumeration, registration and demarcation of vending zones without vendor representatives in the TVC defeat the purpose of a participatory committee.\\
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Punjab}
 \newline
 \bf{Score: 65}
 \newline
-\bf{Steps: 9/11}
-&
-\cellcolor{SVACgreen2}Punjab is one of the four states that have formed the Grievance Redressal Committee. The Act mandates the state to define the process of election for representing vendors in the TVC. Punjab has used \textit{show of hands} as the way to elect vendors. On the basis of  this, all 165 towns have vendor representation in the TVCs. In the absence of a vending plan, vending zones have been earmarked in three towns.
-\\
+\bf{Steps: 9/11} & \cellcolor{SVACgreen2}Punjab is one of the four states that have formed the Grievance Redressal Committee. The Act mandates the state to define the process of election for representing vendors in the TVC. Punjab has used \textit{show of hands} as the way to elect vendors. On the basis of  this, all 165 towns have vendor representation in the TVCs. In the absence of a vending plan, vending zones have been earmarked in three towns. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Odisha}
 \newline
 \bf{Score: 61}
 \newline
-\bf{Steps: 9/11}
-&
-\cellcolor{SVACgreen2}Odisha has implemented 9 out of 11 steps: all 105 towns have formed a TVC with elected vendor representation; 79\% of the TVCs have enumerated vendors; 14 TVCs have issued identity cards and 5\% of the towns have published a plan and earmarked vending zones.
-\\
+\bf{Steps: 9/11} & \cellcolor{SVACgreen2}Odisha has implemented 9 out of 11 steps: all 105 towns have formed a TVC with elected vendor representation; 79\% of the TVCs have enumerated vendors; 14 TVCs have issued identity cards and 5\% of the towns have published a plan and earmarked vending zones. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Goa}
 \newline
 \bf{Score: 60}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACgreen2}Goa has formed TVCs in all 14 towns with street vendor representatives. Only two TVCs have issued ID cards and four have earmarked vending zones. There are no Grievance Redressal Committees.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACgreen2}Goa has formed TVCs in all 14 towns with street vendor representatives. Only two TVCs have issued ID cards and four have earmarked vending zones. There are no Grievance Redressal Committees. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Gujarat}
 \newline
 \bf{Score: 53}
 \newline
-\bf{Steps: 7/11}
-&
-\cellcolor{SVACgreen2}Gujarat has notified the rules, not the scheme. A scheme is to specify the manner of conducting the survey and the form and manner of issuing ID cards. In the absence of a scheme, 168 out of 169 TVCs have already completed the enumeration exercise and issued identification to more than 75\% vendors.
-\\
+\bf{Steps: 7/11} & \cellcolor{SVACgreen2}Gujarat has notified the rules, not the scheme. A scheme is to specify the manner of conducting the survey and the form and manner of issuing ID cards. In the absence of a scheme, 168 out of 169 TVCs have already completed the enumeration exercise and issued identification to more than 75\% vendors. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \cellcolor{SVACgreen3}\bf{Telangana}
 \newline
 \bf{Score: 50}
 \newline
-\bf{Steps: 5/11}
-&
-\cellcolor{SVACgreen2}Due to the dissolution of the state government in early 2017, there has been a delay in notifying the rules. However, the state has published the scheme.
+\bf{Steps: 5/11} & \cellcolor{SVACgreen2}Due to the dissolution of the state government in early 2017, there has been a delay in notifying the rules. However, the state has published the scheme.
 
-74 towns in the state have formed 103 TVCs with elected vendors.
-\\
+74 towns in the state have formed 103 TVCs with elected vendors. \\
+
+\cellcolor{SVACgreen3} & \cellcolor{SVACgreen2} \\
+
 \midrule
 \multicolumn{2}{l}{States with Moderate Compliance (Index Score Between 30 to 49)}\\
 \midrule
+
 \cellcolor{SVACyellow1}\bf{Bihar}
 \newline
 \bf{Score: 47}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACyellow2}All 144 towns have formed a TVC without vendor representation. Only 3 towns have published the plan but 46 TVCs have already earmarked vending zones.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACyellow2}All 144 towns have formed a TVC without vendor representation. Only 3 towns have published the plan but 46 TVCs have already earmarked vending zones. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Uttarakhand}
 \newline
 \bf{Score: 47}
 \newline
-\bf{Steps: 6/11}
-&
-\cellcolor{SVACyellow2}In Uttarakhand, 40 out of 93 towns have a TVC. Vendor enumeration is complete in 55 towns. 10 TVCs have issued identity cards to more than 75\% of vendors. However, none of the TVCs have vendor representatives so far.
-\\
+\bf{Steps: 6/11} & \cellcolor{SVACyellow2}In Uttarakhand, 40 out of 93 towns have a TVC. Vendor enumeration is complete in 55 towns. 10 TVCs have issued identity cards to more than 75\% of vendors. However, none of the TVCs have vendor representatives so far. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Madhya Pradesh}
 \newline
 \bf{Score: 46}
 \newline
-\bf{Steps: 8/11}
-&
-\cellcolor{SVACyellow2}Madhya Pradesh has implemented 8 out of 11 steps in less than a third of the towns.
-\\
+\bf{Steps: 8/11} & \cellcolor{SVACyellow2}Madhya Pradesh has implemented 8 out of 11 steps in less than a third of the towns. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Haryana}
 \newline
 \bf{Score: 45}
 \newline
-\bf{Steps: 5/11}
-&
-\cellcolor{SVACyellow2}In Haryana, there are 80 TVCs for 80 towns. None of the TVCs have vendor representatives. The state has not notified the scheme but has completed enumeration in all towns; 58 towns have a plan but 72 have earmarked vending zones.
-\\
+\bf{Steps: 5/11} & \cellcolor{SVACyellow2}In Haryana, there are 80 TVCs for 80 towns. None of the TVCs have vendor representatives. The state has not notified the scheme but has completed enumeration in all towns; 58 towns have a plan but 72 have earmarked vending zones. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Chhattisgarh}
 \newline
 \bf{Score: 45}
 \newline
-\bf{Steps: 5/11}
-&
-\cellcolor{SVACyellow2}64 out of 169 towns in Chhattisgarh have a TVC but without vendor representation. All 64 TVCs have completed the survey. Also, 35 TVCs have issued ID cards to more than 75\% of identified vendors.
-\\
+\bf{Steps: 5/11} & \cellcolor{SVACyellow2}64 out of 169 towns in Chhattisgarh have a TVC but without vendor representation. All 64 TVCs have completed the survey. Also, 35 TVCs have issued ID cards to more than 75\% of identified vendors. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Meghalaya}
 \newline
 \bf{Score: 43}
 \newline
-\bf{Steps: 6/11}
-&
-\cellcolor{SVACyellow2}In Meghalaya, there are seven TVCs but without vendor representation. One town has marked vending zones but without a plan.
-\\
+\bf{Steps: 6/11} & \cellcolor{SVACyellow2}In Meghalaya, there are seven TVCs but without vendor representation. One town has marked vending zones but without a plan. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Tripura}
 \newline
 \bf{Score: 40}
 \newline
-\bf{Steps: 4/11}
-&
-\cellcolor{SVACyellow2}Tripura has formed TVCs in all 20 towns but only 25\% of the TVCs have enumerated vendors.
-\\
+\bf{Steps: 4/11} & \cellcolor{SVACyellow2}Tripura has formed TVCs in all 20 towns but only 25\% of the TVCs have enumerated vendors. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Assam}
 \newline
 \bf{Score: 39}
 \newline
-\bf{Steps: 5/11}
-&
-\cellcolor{SVACyellow2}Assam is one of the four states that have formed Grievance Redressal Committees.
-\\
+\bf{Steps: 5/11} & \cellcolor{SVACyellow2}Assam is one of the four states that have formed Grievance Redressal Committees. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Kerala}
 \newline
 \bf{Score: 37}
 \newline
-\bf{Steps: 4/11}
-&
-\cellcolor{SVACyellow2}Kerala has a TVC in all its towns but without vendor representation. Vendor enumeration is complete in all TVCs and 35\% of these TVCs have issued identity cards, without a scheme in place.
-\\
+\bf{Steps: 4/11} & \cellcolor{SVACyellow2}Kerala has a TVC in all its towns but without vendor representation. Vendor enumeration is complete in all TVCs and 35\% of these TVCs have issued identity cards, without a scheme in place. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Arunachal Pradesh}
 \newline
 \bf{Score: 34}
 \newline
-\bf{Steps: 6/11}
-&
-\cellcolor{SVACyellow2}Arunachal Pradesh is one of the four states without rules in place. The delay in the implementation may be attributed to the time taken to repeal the State Act---Arunachal Pradesh Street Vendors Act 2011. Even though the repeal saved all orders and actions taken under the 2011 Act, the state still fares low. It is possible that not much progress was made under the previous Act.
+\bf{Steps: 6/11} & \cellcolor{SVACyellow2}Arunachal Pradesh is one of the four states without rules in place. The delay in the implementation may be attributed to the time taken to repeal the State Act---Arunachal Pradesh Street Vendors Act 2011. Even though the repeal saved all orders and actions taken under the 2011 Act, the state still fares low. It is possible that not much progress was made under the previous Act. \\
 
-\\
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \cellcolor{SVACyellow1}\bf{Maharashtra}
 \newline
 \bf{Score: 32}
 \newline
-\bf{Steps: 7/11}
-&
-\cellcolor{SVACyellow2}97 out of 3,799 towns have formed a TVC.
-\\
+\bf{Steps: 7/11} & \cellcolor{SVACyellow2}97 out of 3,799 towns have formed a TVC. \\
+
+\cellcolor{SVACyellow1} & \cellcolor{SVACyellow2} \\
+
 \midrule
 \multicolumn{2}{l}{States with Poor Compliance (Index Score Between 10 to 29)}\\
 \midrule
+
 \cellcolor{SVACred1}\bf{Manipur}
 \newline
 \bf{Score: 29}
 \newline
-\bf{Steps: 7/11}
-&
-\cellcolor{SVACred2}Manipur has enumerated vendors, issued identity cards, published a plan and earmarked vending zones but in the absence of a scheme.
-\\
+\bf{Steps: 7/11} & \cellcolor{SVACred2}Manipur has enumerated vendors, issued identity cards, published a plan and earmarked vending zones but in the absence of a scheme. \\
+
+\cellcolor{SVACred1} & \cellcolor{SVACred2} \\
+
 \cellcolor{SVACred1}\bf{Karnataka}
 \newline
 \bf{Score: 23}
 \newline
-\bf{Steps: 4/11}
-&
-\cellcolor{SVACred2}Karnataka has formed 265 TVCs in 237 towns. The TVCs have enumerated vendors as well. However, the state has not yet notified the rules or the scheme, raising questions on the tenability of the progress.
-\\
+\bf{Steps: 4/11} & \cellcolor{SVACred2}Karnataka has formed 265 TVCs in 237 towns. The TVCs have enumerated vendors as well. However, the state has not yet notified the rules or the scheme, raising questions on the tenability of the progress. \\
+
+\cellcolor{SVACred1} & \cellcolor{SVACred2} \\
+
 \cellcolor{SVACred1}\bf{Sikkim}
 \newline
 \bf{Score: 21}
 \newline
-\bf{Steps: 2/11}
-&
-\cellcolor{SVACred2}Sikkim has not yet published the scheme.
-\\
+\bf{Steps: 2/11} & \cellcolor{SVACred2}Sikkim has not yet published the scheme. \\
+
+\cellcolor{SVACred1} & \cellcolor{SVACred2} \\
+
 \cellcolor{SVACred1}\bf{West Bengal}
 \newline
 \bf{Score: 13}
 \newline
-\bf{Steps: 2/11}
-&
-\cellcolor{SVACred2}West Bengal has notified the rules and formed TVCs in 3 out of 239 towns, accounting for 1\%, the lowest among all states.
-\\ 
+\bf{Steps: 2/11} & \cellcolor{SVACred2}West Bengal has notified the rules and formed TVCs in 3 out of 239 towns, accounting for 1\%, the lowest among all states. \\ 
+
+\cellcolor{SVACred1} & \cellcolor{SVACred2} \\
+
 \midrule
 \multicolumn{2}{l}{States with Very Poor Compliance (Index Score Equal to or Less than 9)}\\
 \midrule
+
 \cellcolor{SVACred3}\bf{Nagaland}
 \newline
 \bf{Score: 9}
 \newline
-\bf{Steps: 2/11}
-&
-\cellcolor{SVACred2}Nagaland has not notified rules and scheme. It has formed TVCs in 2 out of 11 towns and has earmarked vending zones in the two areas.\\
+\bf{Steps: 2/11} & \cellcolor{SVACred2}Nagaland has not notified rules and scheme. It has formed TVCs in 2 out of 11 towns and has earmarked vending zones in the two areas.\\
 \bottomrule
 	\end{longtable}
 \normalsize
@@ -821,8 +819,7 @@ Although only 39 towns have TVCs, vendor enumeration is complete in 41 towns. It
 %BA says revise date convention everywhere to dd Month YYYY please. BA says have not been able to read table
            \scriptsize
              \begin{landscape}
-  \rowcolors{2}{gray!25}{white}
-  \centering
+  \rowcolors{2}{gray!25}{white} 
             \begin{longtable}{p{2cm}p{0.5cm}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{1.0cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft\arraybackslash}p{0.5cm}}
             \caption{Step-Wise Data on Implementation for 30 states, as of 31 October 2018}
             \label{tab: Index}\\
@@ -897,7 +894,7 @@ Keeping this disjunction in mind, we use a case study approach to study a small 
 
 The provision of a TVC, the local participatory body comprising representatives from local authorities, vendors, market and residential associations, creates a platform for stakeholders with competing and conflicting interests to contribute to critical decisions. However, stakeholder participation does not automatically translate into democratic or just decisions. If effective, we can benefit from the use of `dispersed bits of incomplete and frequently contradictory knowledge' possessed by vendors, non-government organisations (NGOs), and civil society \parencite{hayekpaper}. If not, the new institutions can result in perpetuating vendor harassment and exploitation.
 
-We studied one TVC each in Delhi and Gurugram—two connected urban areas of the National Capital Region (NCR).\footnote{The NCR comprises National Capital Territory of Delhi and parts of Haryana, Uttar Pradesh and Rajasthan.} 62.5\% of the total population of NCR is urban; of this, 56\% lives in Delhi \parencite{ncrpbreport}. Congestion within Delhi has led to the emergence of satellite towns in surrounding areas such as Gurugram, Noida, Faridabad and Ghaziabad \parencite{kpmgreport}.
+We studied one TVC each in Delhi and Gurugram—two connected urban areas of the National Capital Region (NCR).\footnote{ The NCR comprises National Capital Territory of Delhi and parts of Haryana, Uttar Pradesh and Rajasthan.} 62.5\% of the total population of NCR is urban; of this, 56\% lives in Delhi \parencite{ncrpbreport}. Congestion within Delhi has led to the emergence of satellite towns in surrounding areas such as Gurugram, Noida, Faridabad and Ghaziabad \parencite{kpmgreport}.
 
 The objective of the case study approach is to describe the constitution of the TVC, the relations between its unequal actors and how it functions. The case studies do not offer explicit answers but raise pertinent questions on how the citizen-driven democratic governance shapes the city.
 
@@ -905,7 +902,7 @@ The objective of the case study approach is to describe the constitution of the 
 \subsection*{Gurugram: Participatory Governance Still Nascent}
 \addcontentsline{toc}{subsection}{Gurugram: Participatory Governance Still Nascent}
 
-Gurugram, home to the second largest number of street vendors among 80 towns in Haryana, has identified 18,670 vendors.\footnote{As stated by the State Urban Development Authority, Haryana (SUDA-H) under SUSV in an RTI response dated 21 November 2018} The Millennium City, with a population of more than 15 lakh, has grown from housing 800 start-ups in 2015 to more than 1,500 in 2018 \parencite{vermanews}. With the visual backdrop of modern residential buildings and corporate houses coexisting with village settlement areas, we study the role of vendors and their rights to the city. Between November and December 2018, we conducted interviews with seven members of the city's TVC including representatives from an NGO (one), a private enterprise, vendor associations, and government officials. Eight members declined the request for interview.\\
+Gurugram, home to the second largest number of street vendors among 80 towns in Haryana, has identified 18,670 vendors.\footnote{ As stated by the State Urban Development Authority, Haryana (SUDA-H) under SUSV in an RTI response dated 21 November 2018} The Millennium City, with a population of more than 15 lakh, has grown from housing 800 start-ups in 2015 to more than 1,500 in 2018 \parencite{vermanews}. With the visual backdrop of modern residential buildings and corporate houses coexisting with village settlement areas, we study the role of vendors and their rights to the city. Between November and December 2018, we conducted interviews with seven members of the city's TVC including representatives from an NGO (one), a private enterprise, vendor associations, and government officials. Eight members declined the request for interview.\\
 
 The list of interviewees includes:
 
@@ -964,23 +961,23 @@ Instead of being elected, as mandated by the Act and the Haryana Street Vendor R
 
 	\begin{figure}[h]
 		%Do not try to scale figure in .tex or you loose font size consistency
-		%\hspace*{-3cm}
+		\vspace*{-5cm}
+		%\hspace*{0.5cm}
 		%The code to input the plot is extremely simple
 		\input{m_vs_r.tex}
 		%Captions and Labels can be used since this is a figure environment
-		\vspace{-2cm}
+		\vspace{-5cm}
 		%\caption{Sample output from tikzDevice}
 		\label{plot:test}
 	\end{figure}
 	
-
 
 \subsubsection*{Low Vendor Representation at TVC Meetings Resulting in Biased Decisions}
 \addcontentsline{toc}{subsubsection}{Low Vendor Representation at TVC Meetings Resulting in Biased Decisions}
 
 The mandated list of TVC members of the local authority’s includes four vendors; however, the minutes of the meeting held on 21 August 2018 show zero representation from vendors (Appendix \ref{appendix: TVC members}). The meeting had 23 signatories with no vendors, but the content of the minutes referred to the presence of three vendor representatives. When asked to clarify, one of the vendor representatives explained that the discrepancy was due to the unwillingness of members to ratify minutes, given differences of opinion.
 
-Separately, we also reached out to 15 of the 23 signatories to verify their presence at the meeting. Three denied being a part of any such meeting. One NGO member, on the condition of anonymity, mentioned that he was only present as he is `friends with the City Project Officer'.{\footnote{Respondent number 15, 21 and 22 from the list in Appendix \ref{appendix: TVC members} denied being a part of the TVC; one, being a representative from the market welfare association and second, the ad-hoc pradhan of Sector 14.}
+Separately, we also reached out to 15 of the 23 signatories to verify their presence at the meeting. Three denied being a part of any such meeting. One NGO member, on the condition of anonymity, mentioned that he was only present as he is `friends with the City Project Officer'.{\footnote{ Respondent number 15, 21 and 22 from the list in Appendix \ref{appendix: TVC members} denied being a part of the TVC; one, being a representative from the market welfare association and second, the ad-hoc pradhan of Sector 14.}
 
 \subsubsection*{Disagreement Between Government Officials and Vendors on Vending Sites}
 \addcontentsline{toc}{subsubsection}{Disagreement Between Government Officials and Vendors on Vending Sites}
@@ -1001,11 +998,7 @@ This example of the withdrawal of two sites from Sector 14 reflects how vendors 
 
 In Gurugram, the MCG has earmarked 49 vending zones—37 in September and 12 in October 2017. Some vendors registered to operate in the earmarked vending zone moved since the appointed vending zone was not in the vicinity of a residential area and experienced low levels of pedestrian footfall. Moving street vendors to `off-street locations is relatively easy, but moving their customers to those locations is much more difficult. When customers fail to follow, vendors have little choice but to return to the streets' \parencite{bromleypaper}.
 
-These two examples raise questions on the willingness of municipal officials to include vendors in critical decisions. How are vending zones earmarked?\footnote{Meeting minutes of 21 August 2018 state: `as per approved layout plan of Haryana Urban Development Authority (HUDA), the site is earmarked for Parking and other is earmarked as Cycle Stand… prior to development of vending zones, permission was not obtained from Town and Country Planning Department to change use of sites as vending zone'.} In the case of disputes or conflicts, how are decisions made? Is there a structured channel of dispute resolution? How are the street vendors or their interests incorporated in such decisions?
-
-
-
-
+These two examples raise questions on the willingness of municipal officials to include vendors in critical decisions. How are vending zones earmarked?\footnote{ Meeting minutes of 21 August 2018 state: `as per approved layout plan of Haryana Urban Development Authority (HUDA), the site is earmarked for Parking and other is earmarked as Cycle Stand… prior to development of vending zones, permission was not obtained from Town and Country Planning Department to change use of sites as vending zone'.} In the case of disputes or conflicts, how are decisions made? Is there a structured channel of dispute resolution? How are the street vendors or their interests incorporated in such decisions?
 
 Although the Act opens channels and creates a super structure for negotiation between government and civil society, the devil lies in the detail. The suppression or protection of vendors will depend on the quality of regulations proposed by the local authority. The Act requires the plan for street vending to recognise the existing markets where buyers and sellers congregate. For any spatial planning exercise to be successful, it must take into consideration the commercial viability of vending sites. A thoughtful consideration of the existing patterns of vending is necessary to ensure that the demarcation of zones does not become a futile exercise.
 
@@ -1083,7 +1076,7 @@ The National Capital Region is one of the richest areas in the country. Delhi, t
 
 Delhi makes for a unique case where vendors face resistance from both, the administration and the judiciary. An analysis of case laws shows how Delhi’s vendors are frequently disfavoured. More than 3 years after the Act, the High Court of Delhi continues to base eviction decisions on the pre-2014 legal status of vendors and uphold the old demarcation of vending zones. Between January 2017 and September 2018, vendor petitioners challenged evictions 22 times, of which the High Court of Delhi ruled against vendors in 14 cases. The scheme framed by the government has also been criticised for over-regulation by different vendor interest groups and advocates. 
 
-We studied why the schemes and rules remain contentious, the new TVCs formed and their functioning. This case study is based on a review of pertinent case laws and six interviews with TVC members, one government official, TVC members in NDMC, and an advocate for vendor rights. While we reached out to TVCs in all four municipal zones, we only secured interviews from the New Delhi Municipal Council (NDMC). The NDMC governs the seat of the power of the Union of India and covers areas such as the Central Secretariat and Connaught Place. 
+We studied why the schemes and rules remain contentious, the new TVCs formed and their functioning. The case study is based on a review of pertinent case laws and six interviews. While we reached out to TVCs in all four municipal zones, we only secured interviews from the New Delhi Municipal Council (NDMC). The NDMC governs the seat of the power of the Union of India and covers areas such as the Central Secretariat and Connaught Place. 
 
 The list of interviewees included the following:
 \begin{itemize}[nosep]
@@ -1140,8 +1133,8 @@ Five years since the implementation of the Act, Delhi is yet to have functional 
 \subsubsection*{Bad Rules Can Lead to Opaque Governance}
 \addcontentsline{toc}{subsubsection}{Bad Rules Can Lead to Opaque Governance}
 
-Of the 27 TVCs formed in September 2018, meeting minutes and notices are available for only 8.\footnote{North DMC: Rohini, Karol Bagh, Keshav Puram (TVC 1\&2), and Civil Lines (TVC 1\&2); South Delhi Municipal Corporation (SDMC): City S.P, Central and West Zone; and NDMC.
-} The minutes were not available on the Municipality websites but available via the Facebook page of a vendor association called the `Hawkers Joint Action Committee'. There were 14 meetings for 10 TVCs in North DMC, NDMC and South DMC.\footnote{Distribution of TVC meetings: City S.P (1), Central (2) and West (2) under SDMC, Rohini (1), Keshav Puram for TVC 1 \& 2 (1), Civil Lines for TVC 1 \& 2 (1), Karol Bagh (2) under North DMC and NDMC (3).
+Of the 27 TVCs formed in September 2018, meeting minutes and notices are available for only 8.\footnote{ North DMC: Rohini, Karol Bagh, Keshav Puram (TVC 1\&2), and Civil Lines (TVC 1\&2); South Delhi Municipal Corporation (SDMC): City S.P, Central and West Zone; and NDMC.
+} The minutes were not available on the Municipality websites but available via the Facebook page of a vendor association called the `Hawkers Joint Action Committee'. There were 14 meetings for 10 TVCs in North DMC, NDMC and South DMC.\footnote{ Distribution of TVC meetings: City S.P (1), Central (2) and West (2) under SDMC, Rohini (1), Keshav Puram for TVC 1 \& 2 (1), Civil Lines for TVC 1 \& 2 (1), Karol Bagh (2) under North DMC and NDMC (3).
 } For East Delhi Municipal Corporation, the Hawkers Committee only uploaded pictures of one meeting, not the minutes or notices of the TVC meetings. 
 
 We found that some TVCs issued meeting invitations to select members. In SDMC central zone, for example, only 4 out of 12 elected vendors were issued the meeting notice. Similarly, the TVC in Rohini sent out the meeting announcement only to government officials and not to other representatives. 
@@ -1170,11 +1163,11 @@ Between November and December 2018, the TVCs discussed the latest draft of the s
 
 \item The size of tehbazari to be 8×6 feet and not 6×4;\footnote{Suggested against Clause 2.1.17 that mandates vending space to 6X4 feet. It also asks vendors to `not encroach upon the public land and exceed beyond permissible limits', and `keep all his wares confined to the allotted space'. 
 }
-\item Have 1 meter of the walkway for pedestrians, instead of 2 meters; or not allocate footpath to vendors;\footnote{Clause 2.1.22 asks vendors to not block the footpath and maintain walkway of two meters width on footpaths in front of the vending stalls.
+\item Have 1 meter of the walkway for pedestrians, instead of 2 meters; or not allocate footpath to vendors;\footnote{ Clause 2.1.22 asks vendors to not block the footpath and maintain walkway of two meters width on footpaths in front of the vending stalls.
 }
-\item Keep vending cart style/size and fee uniform across the city; and\footnote{As opposed to Clause 4.1.3 that classifies property tax and monthly vending fee according to different categories of vending zones.
+\item Keep vending cart style/size and fee uniform across the city; and\footnote{ As opposed to Clause 4.1.3 that classifies property tax and monthly vending fee according to different categories of vending zones.
 }
-\item Lifetime validity of the certificate of vending, instead of 9 years.\footnote{As opposed to Clause 4.3.1 that pegs the total validity period of certificate of vending at nine years including renewal periods. In all cases, the maximum validity will remain nine years from initial issue to the original vendor. 
+\item Lifetime validity of the certificate of vending, instead of 9 years.\footnote{ As opposed to Clause 4.3.1 that pegs the total validity period of certificate of vending at nine years including renewal periods. In all cases, the maximum validity will remain nine years from initial issue to the original vendor. 
 }
 \end{itemize}
 We are yet to see whether these suggestions will be accepted or even adequately considered, given the long history of vendor marginalisation.
@@ -1186,7 +1179,7 @@ We are yet to see whether these suggestions will be accepted or even adequately 
 
 Management of public spaces is a pressing problem in most cities. India is no exception. `On its streets, India eats, works, sleeps, moves, celebrates and worships. The street is a stage that rarely sleeps,' wrote Arjun Appadurai in 1987 \parencite{naikpaper}. This study concerns itself with the key contender for Indian urban public spaces—the street vendor. Vendors are often accused of encroaching street, of depriving pedestrians of their walking space or for causing traffic jams. 
 
-Municipal and police officials are faced with the challenge to act on these complaints without sufficient information on vendor identity area of operation, services offered or even spatial segmentation. Historically there have been several state and municipal laws that weigh against street vending. The moot questions are: From whom are public spaces being safeguarded and who is safeguarded? 
+Municipal and police officials are faced with the challenge to act on these complaints without sufficient information on vendor identity area of operation, services offered or even spatial segmentation. Historically there have been several state and municipal laws that weigh against street vending. The moot questions are: From whom are public spaces being safeguarded and who is safeguarded? \parencite{bhowmikpaper} 
 
 Street vending is a source of livelihood for many urban poor, and of affordable and essential goods to the public. However, local administrators often fail to recognise street vendor contribution to economic activity and see it solely as a question of space management: how many vendors and what should be the size of carts. 
 

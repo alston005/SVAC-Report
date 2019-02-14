@@ -25,7 +25,7 @@ data.new
 
 
 grob <- grobTree(textGrob("Representation from street vendors\nand vendor associations",
-                          x=0.45,  y=0.85, hjust=0, vjust = 0.3,
+                          x=0.20,  y=0.85, hjust=0, vjust = 0.2,
                           gp=gpar(col="black", fontsize=10, fontface="italic")))
 myCurve<-curveGrob(0.75, 0.93, 0.95, 0.75, default.units = "npc",
                    curvature = -0.5, angle = 90, ncp = 20, shape = 1,
@@ -44,10 +44,11 @@ x <- ggplot(data.new[order(data.new$share_number, decreasing = F), ],
         scale_x_discrete(position = "top", labels = c("Mandate of\nMCG Order", 
                                                       "Reality from\nMeeting Minutes")) + 
         geom_bar(stat = "identity", width = 0.35)  + 
-        geom_text(size = 3, position = position_stack(vjust = 0.5)) +
+        geom_text(size = 2.5, position = position_stack(vjust = 0.5)) +
         theme(axis.text = element_text(size = 10)) + 
         coord_flip() + scale_y_reverse() + 
-        theme(aspect.ratio = 1/2,
+        theme(plot.margin=unit(c(0,1,0,1),"cm"), 
+               aspect.ratio = 1/2,
               legend.position=c(0.52,0),
               legend.title = element_blank(),
               legend.key = element_rect(size = 5),
@@ -61,7 +62,7 @@ x <- ggplot(data.new[order(data.new$share_number, decreasing = F), ],
               axis.line.y = element_blank(),
               axis.ticks = element_blank(), 
               axis.text.x = element_blank(),
-              axis.text.y = element_text(size = 10, margin = margin(l = 0 , r =0)),
+              axis.text.y = element_text(size = 10, margin = margin(l =0 , r =0)),
               axis.title = element_blank(),
               legend.text = element_text(margin = margin(l = 1 , r =10), size = 10),
               legend.margin = margin(r=10, unit = "pt")) + 

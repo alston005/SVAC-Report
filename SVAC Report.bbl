@@ -40,6 +40,37 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
     \endentry
+    \entry{bhowmikpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4028105ff658afd4b81e86875dc6ac2b}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Sharit\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{4028105ff658afd4b81e86875dc6ac2b}
+      \strng{fullhash}{4028105ff658afd4b81e86875dc6ac2b}
+      \strng{bibnamehash}{4028105ff658afd4b81e86875dc6ac2b}
+      \strng{authorbibnamehash}{4028105ff658afd4b81e86875dc6ac2b}
+      \strng{authornamehash}{4028105ff658afd4b81e86875dc6ac2b}
+      \strng{authorfullhash}{4028105ff658afd4b81e86875dc6ac2b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic and Political Weekly}
+      \field{title}{National policy for street vendors}
+      \field{year}{2003}
+      \field{pages}{1543\bibrangedash 1546}
+      \range{pages}{4}
+    \endentry
     \entry{bromleypaper}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c5d56409464b2f456b1af480c49c6262}{%
@@ -224,7 +255,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{number}{2017 SCC ONLINE CAL 14025}
-      \field{year}{2017a}
+      \field{year}{2017}
     \endentry
     \entry{HariRam}{jurisdiction}{}
       \name{author}{1}{}{%
