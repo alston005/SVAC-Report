@@ -62,9 +62,9 @@ x <- ggplot(data.new[order(data.new$share_number, decreasing = F), ],
               axis.line.y = element_blank(),
               axis.ticks = element_blank(), 
               axis.text.x = element_blank(),
-              axis.text.y = element_text(size = 10, margin = margin(l =0 , r =0)),
+              axis.text.y = element_text(size = 9, margin = margin(l =0 , r =0)),
               axis.title = element_blank(),
-              legend.text = element_text(margin = margin(l = 1 , r =10), size = 10),
+              legend.text = element_text(margin = margin(l = 1 , r =10), size = 9),
               legend.margin = margin(r=10, unit = "pt")) + 
         guides(fill = guide_legend(nrow = 1, keywidth = 1)) + 
         annotation_custom(grob=myCurve) + 
